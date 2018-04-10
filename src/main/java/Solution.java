@@ -15,7 +15,7 @@ public class Solution {
 
         System.out.println("Array is sorted in " + solution.sortGetNumOfSwaps(arr) + "swaps");
         System.out.println("First Element: " + arr[0]);
-        System.out.println("Last Element: " + arr[arr.length]);
+        System.out.println("Last Element: " + arr[arr.length - 1]);
     }
 
     public int sortGetNumOfSwaps(int[] arr) {
