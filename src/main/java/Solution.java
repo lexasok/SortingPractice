@@ -10,6 +10,12 @@ public class Solution {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = scan.nextInt();
         }
+
+        Solution solution = new Solution();
+
+        System.out.println("Array is sorted in " + solution.sortGetNumOfSwaps(arr) + "swaps");
+        System.out.println("First Element: " + arr[0]);
+        System.out.println("Last Element: " + arr[arr.length]);
     }
 
     public int sortGetNumOfSwaps(int[] arr) {
