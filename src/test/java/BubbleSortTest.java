@@ -22,8 +22,6 @@ public class BubbleSortTest {
         int[] arr4res = arr4;
         bubbleSort.bubbleSort(arr4);
 
-
-
         assertArrayEquals(arr1res, arr1);
         assertArrayEquals(arr2res, arr2);
         assertArrayEquals(arr3res, arr3);
