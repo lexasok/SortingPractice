@@ -13,7 +13,7 @@ public class Solution {
 
         Solution solution = new Solution();
 
-        System.out.println("Array is sorted in " + solution.sortGetNumOfSwaps(arr) + " swaps");
+        System.out.println("Array is sorted in " + solution.sortGetNumOfSwaps(arr) + " swaps.");
         System.out.println("First Element: " + arr[0]);
         System.out.println("Last Element: " + arr[arr.length - 1]);
     }
