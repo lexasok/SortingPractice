@@ -1,6 +1,6 @@
 public class Person {
 
-    String hairColor = "blue";
+    HairColor hairColor = HairColor.BLACK;
 
     public static void main(String[] args) {
 
